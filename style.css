@@ -1,0 +1,194 @@
+  <style>
+    /* 🌸 GENERAL STYLING */
+    body {
+      font-family: "Poppins", Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #fdfdfd;
+      color: #333;
+    }
+
+    header {
+      background: #6a1b9a;
+      color: white;
+      padding: 15px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #fff;
+      margin: 0;
+      font-size: 28px;
+      letter-spacing: 1px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 0;
+      margin: 10px 0 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main, section {
+      padding: 20px;
+      margin: 20px auto;
+      background: white;
+      max-width: 900px;
+      border-radius: 8px;
+      box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    }
+
+    img {
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+
+    /* 🌼 HIGHLIGHT CLASS */
+    .highlight {
+      background: #fff9c4;
+      font-weight: bold;
+      font-size: 18px;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+
+    /* BOX MODEL PRACTICE */
+    .box {
+      border: 2px solid #6a1b9a;
+      padding: 10px;
+      margin: 20px 0;
+    }
+
+    /* RESPONSIVE DESIGN */
+    @media (max-width: 600px) {
+      body {
+        background: #e3f2fd;
+      }
+    }
+
+    /* BACKGROUND IMAGE */
+    .banner {
+      background-image: url("https://tse2.mm.bing.net/th/id/OIP.8M9nNQ5hEYfUoOmuYky_XAHaE7?rs=1&pid=ImgDetMain");
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 200px;
+      border-radius: 8px;
+    }
+
+    /* BUTTON TRANSITION */
+    button {
+      background: #6a1b9a;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: background-color 0.5s;
+    }
+
+    button:hover {
+      background: #ab47bc;
+    }
+
+    /* FLEX LAYOUT */
+    .flex-container {
+      display: flex;
+      gap: 20px;
+    }
+
+    .flex-item {
+      flex: 1;
+      background: #f3e5f5;
+      border-radius: 8px;
+      padding: 15px;
+    }
+
+    /* 📊 TABLE STYLING */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 30px;
+    }
+
+    caption {
+      font-weight: bold;
+      text-align: left;
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: blue;
+      color: black;
+    }
+
+    /* Unique colors for each column */
+    td:nth-child(1) {
+      background-color: #f8bbd0; /* light pink */
+    }
+
+    td:nth-child(2) {
+      background-color: #f3e5f5; /* lavender */
+    }
+
+    td:nth-child(3) {
+      background-color: #e1bee7; /* soft purple */
+    }
+
+    td:nth-child(4) {
+      background-color: #d1c4e9; /* violet */
+    }
+
+    td:nth-child(5) {
+      background-color: #c5cae9; /* periwinkle */
+    }
+
+    /* ABSOLUTE VS RELATIVE */
+    .relative-box {
+      position: relative;
+      background: #f3e5f5;
+      padding: 20px;
+      width: 300px;
+      border-radius: 8px;
+    }
+
+    .absolute-box {
+      position: absolute;
+      top: 40px;
+      left: 40px;
+      background: #ce93d8;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    /* COLOR DEMO */
+    .rgb-text { color: rgb(255, 0, 0); }
+    .hex-text { color: #00ff00; }
+    .hsl-text { color: hsl(240, 100%, 50%); }
+  </style>
